@@ -23,6 +23,12 @@ common:
     -
       - rack
       - 1.6.4
+    -
+      - fog-profitbricks
+      - 0.0.5
+    -
+      - fog-aliyun
+      - 0.1.0
 
 chef-10.16.6:
     # workaround for chef install dependency issues
@@ -98,3 +104,8 @@ chef-11.18.12:
     -
       - rack
       - 1.6.4
+
+chef-12.11.18:
+    -
+      - ffi-yajl
+      - 2.2.3
